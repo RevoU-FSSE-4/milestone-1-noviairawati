@@ -3,10 +3,10 @@
 
 /* Root */
 :root {
-  --main-color: #2D9596;
-  --green: #78A083;
+  --main-color: #492E87;
+  --green: #944E63;
   --bg: #FAA300;
-  --border: 0.1rem solid rgba(23, 206, 14, 0.5);
+  --border: 0.1rem solid rgba(23, 206, 14, 0.7);
 }
 
 /* Setting all elements*/
@@ -429,8 +429,8 @@ main .review .box-container .box .stars i {
   color: var(--main-color);
 }
 
-/* Contact */
-.form-group {
+/* Contact Us*/
+form .form-group {
   margin-bottom: 20px;
 }
 
@@ -663,7 +663,7 @@ main .blogs .box-container .box .content p {
 
 /* Footer: share-links-credit*/
 footer {
-  background: linear-gradient(135deg, #c3e88d, #7fbf7f);
+  background: linear-gradient(135deg, #A87C7C, #7E6363);
   color: #000;
   padding: 50px 0;
 }
