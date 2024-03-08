@@ -6,10 +6,13 @@ HTML Version: _HTML5_
 ## Version Control
 I use the command to upload my assignment.
 1. Git add . : Add all new and changed files to the staging are
+![1](/Image_Readme/gitadd.png)
 
 2. git commit -m "[commit message]" : Commit changes
+![2](/Image_Readme/commit.png)
 
 3. git push origin [branch name] 	: Push a branch to your remote repository
+![3](/Image_Readme/gitpush.png)
 
 ## Structure Website:
 
@@ -57,7 +60,6 @@ There are few steps in Deployment Process and Make subdomain to Netlify.
 
 6. Build Your Site Now it's time to sit back and relax. You did your part; let Netlify take care of the rest. It'll only take a minute.
 
-![10](/Assets/image-8.png)
 
 7. All Done Once the build completes, your site is live! Head to the overview and you can see the URL of your newly published site.
 
