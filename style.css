@@ -243,8 +243,8 @@ main .home .content p {
 }
 
 main .home .content img {
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* About: Row-Image-Content */
@@ -283,85 +283,85 @@ main .about .row .content p {
 
 /* Our Collection */
 main .products .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
 
 main .products .box-container .box {
-    text-align: center;
-    border: var(--border);
-    padding: 2rem;
+  text-align: center;
+  border: var(--border);
+  padding: 2rem;
 }
 
 main .products .box-container .box .icons a {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    border: var(--border);
-    color: #fff;
-    margin: .3rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #fff;
+  margin: .3rem;
 }
 
 /* Change the color of links on hover */
 main .products .box-container .box .icons a:hover {
-    background: var(--main-color);
+  background: var(--main-color);
 }
 
 main .products .box-container .box .image {
-    padding: 2.5rem 0;
+  padding: 2.5rem 0;
 }
 
 main .products .box-container .box .image img {
-    height: 25rem;
+  height: 25rem;
 }
 
 main .products .box-container .box .image img:hover {
-    animation: grow-and-shrink 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation: grow-and-shrink 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 
 
 @keyframes grow-and-shrink {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    50% {
-        transform: scale(1.1);
-    }
+  50% {
+    transform: scale(1.1);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
 main .products .box-container .box .content h3 {
-    color: #fff;
-    font-size: 2.5rem;
+  color: #fff;
+  font-size: 2.5rem;
 }
 
 main .products .box-container .box .content .stars {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 main .products .box-container .box .content .stars i {
-    font-size: 1.7rem;
-    color: var(--main-color);
+  font-size: 1.7rem;
+  color: var(--main-color);
 }
 
 main .products .box-container .box .content .price {
-    color: #fff;
-    font-size: 2.5rem;
+  color: #fff;
+  font-size: 2.5rem;
 }
 
 main .products .box-container .box .content .price span {
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+  font-size: 1.5rem;
 }
 
 
@@ -456,9 +456,11 @@ button:hover {
   0% {
     transform: rotateY(0deg) rotateX(0deg);
   }
+
   50% {
     transform: rotateY(10deg) rotateX(10deg);
   }
+
   100% {
     transform: rotateY(0deg) rotateX(0deg);
   }
@@ -703,17 +705,19 @@ footer {
 /* Animation */
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
+
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 .footer-section {
-  animation: fadeInUp 0.5s ease forwards; /* Apply animation to footer sections */
+  animation: fadeInUp 0.5s ease forwards;
+  /* Apply animation to footer sections */
 }
 
 /* media queries */
@@ -800,11 +804,11 @@ footer {
   .gallery .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
+  }
 
-.footer-section {
-  flex-basis: 100%;
-}
+  .footer-section {
+    flex-basis: 100%;
+  }
 }
 
 @media only screen and (max-width: 991px) {

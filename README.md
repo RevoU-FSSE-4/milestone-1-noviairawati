@@ -120,7 +120,7 @@ Here's my deploy on Netlify:
 
 ### How to Make Subdomain
 
-Now I want to create a subdomain with the results of deploying my Milestone-1. This subdomain is the address I will use in my Assignment.
+Now, I want to create a subdomain with the results of deploying my Milestone-1. This subdomain is the address I will use in the Milestone.
 
 1. Select the website on Netlify that you want to create a subdomain for.
 
