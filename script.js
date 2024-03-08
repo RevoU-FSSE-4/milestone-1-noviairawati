@@ -34,3 +34,6 @@ toggle.addEventListener("click", () => {
 });
 toggle.addEventListener("click", () => toggle.classList.toggle("active"));
 
+
+/*Prompt*/
+prompt("What's Your Name?", "");
