@@ -1,6 +1,11 @@
-Hello, This assignment for Milestone
-Theme: "Koper Travel Bag"
+Hello, This assignment for Milestone 1.
+
+Theme: *Koper Travel Bag*
+
+Description: This website is a mini project that describes the company profile of a company that sells suitcases in an online shop.
+
 I use _HTML, CSS and Javascript_ to built the website.
+
 HTML Version: _HTML5_
 
 ## Version Control
@@ -67,7 +72,7 @@ There are few steps in Deployment Process and Make subdomain to Netlify.
 
 ![5](/Image_Readme/5.png)
 
-2. Link to Your GitHub (or supported version-control tool of choice), then Clicking "Import An Existing Project" > Then Choose Deploy on Github
+2. Link to Your GitHub (or supported version-control tool of choice), then Clicking "Import An Existing Project" > Then Choose Deploy with Github
 
 ![6](/Image_Readme/6.png)
 
@@ -94,7 +99,7 @@ There are few steps in Deployment Process and Make subdomain to Netlify.
 
 ![14](/Image_Readme/14.png)
 
-![15](/Image_Readme/6.png)
+![15](/Image_Readme/15.png)
 
 7. All Done Once the build completes, your site is live! Head to the overview and you can see the URL of your newly published site.
 
@@ -115,7 +120,7 @@ Here's my deploy on Netlify:
 
 ### How to Make Subdomain
 
-Now I want to create a subdomain with the results of deploying my project assignment. This subdomain is the address I will use in my Assignment.
+Now I want to create a subdomain with the results of deploying my Milestone-1. This subdomain is the address I will use in my Assignment.
 
 1. Select the website on Netlify that you want to create a subdomain for.
 
