@@ -417,6 +417,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="date"],
+input[type="number"],
 select,
 textarea {
   width: 100%;
@@ -431,6 +432,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="date"]:focus,
+input[type="number"]:focus,
 select:focus,
 textarea:focus {
   border-color: #2D9596;
@@ -451,7 +453,7 @@ button:hover {
   background-color: #1E6566;
 }
 
-/* Form Animation */
+/* Form Contact Us */
 @keyframes tilt {
   0% {
     transform: rotateY(0deg) rotateX(0deg);

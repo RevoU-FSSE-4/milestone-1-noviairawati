@@ -34,19 +34,3 @@ toggle.addEventListener("click", () => {
 });
 toggle.addEventListener("click", () => toggle.classList.toggle("active"));
 
-
-/*form location*/
-document.getElementById('get-location').addEventListener('click', function() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var latitude = position.coords.latitude;
-      var longitude = position.coords.longitude;
-      var locationString = "Latitude: " + latitude + ", Longitude: " + longitude;
-      document.getElementById('current-location').textContent = locationString;
-    }, function(error) {
-      alert('Failed to get current location: ' + error.message);
-    });
-  } else {
-    alert('Geolocation is not supported in this browser.');
-  }
-});
