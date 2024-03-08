@@ -4,9 +4,9 @@
 /* Root */
 :root {
   --main-color: #2D9596;
-  --green: #416D19;
-  --bg: #FCDC2A;
-  --border: 0.1rem solid rgba(27, 228, 17, 0.2);
+  --green: #78A083;
+  --bg: #FAA300;
+  --border: 0.1rem solid rgba(23, 206, 14, 0.5);
 }
 
 /* Setting all elements*/
@@ -218,7 +218,7 @@ main .home {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(IMG/claudia-altamimi-kYSJ1xBi848-unsplash.jpg);
+  background: url(IMG/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -228,7 +228,7 @@ main .home .content {
   max-width: 60rem;
 }
 
-main .home .content h3 {
+main .home .content h1 {
   font-size: 4rem;
   text-transform: uppercase;
   color: #0f0202;
@@ -281,7 +281,7 @@ main .about .row .content p {
   line-height: 1.8;
 }
 
-/* Products */
+/* Our Collection */
 main .products .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -404,7 +404,6 @@ main .review .box-container .box .stars i {
 }
 
 /* Contact */
-/* Form Styling */
 .form-group {
   margin-bottom: 20px;
 }
@@ -453,7 +452,6 @@ button:hover {
   background-color: #1E6566;
 }
 
-/* Form Contact Us */
 @keyframes tilt {
   0% {
     transform: rotateY(0deg) rotateX(0deg);
@@ -466,7 +464,7 @@ button:hover {
   }
 }
 
-#myForm {
+form-section .myForm {
   width: 500px;
   margin: 50px auto;
   padding: 30px;
@@ -478,7 +476,7 @@ button:hover {
 }
 
 /* Add perspective */
-#myForm:before {
+form-section .myForm:before {
   content: "";
   position: absolute;
   top: -10px;
@@ -491,7 +489,7 @@ button:hover {
   z-index: -1;
 }
 
-#myForm:after {
+form-section .myForm:after {
   content: "";
   position: absolute;
   top: -10px;
@@ -637,93 +635,86 @@ main .blogs .box-container .box .content p {
 
 /* Footer: share-links-credit*/
 footer {
-  background: var(--green);
-  text-align: center;
+  background: linear-gradient(135deg, #c3e88d, #7fbf7f);
+  color: #000;
+  padding: 50px 0;
 }
 
-footer .share {
-  padding: 1rem 0;
-}
-
-footer .share a {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  color: #0f0202;
-  border: var(--border);
-  margin: 0.3rem;
-  border-radius: 50%;
-}
-
-/* Change the color of links on hover */
-footer .share a:hover {
-  background: var(--main-color);
-  animation: popup 0.5s ease-in-out;
-}
-
-@keyframes popup {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-footer .links {
+.footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 2rem 0;
-  gap: 1rem;
 }
 
-footer .links a {
-  padding: 0.8rem 1.6rem;
-  color: #0f0202;
-  border: var(--border);
-  font-size: 2rem;
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards;
 }
 
-/* Change the color of links on hover */
-footer .links a:hover {
-  background: var(--main-color);
-
-  animation: popuplink 0.5s ease-in-out;
-
+.about h1 {
+  margin-bottom: 20px;
+  animation: fadeInUp 0.5s ease forwards;
 }
 
-@keyframes popuplink {
-  0% {
-    transform: scale(1);
+.contact span {
+  display: block;
+  margin-bottom: 10px;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.socials a {
+  color: #000;
+  margin-right: 10px;
+  text-decoration: none;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.links a:hover {
+  color: #555;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
   }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
+  to {
+      opacity: 1;
+      transform: translateY(0);
   }
 }
 
-footer .credit {
-  font-size: 2rem;
-  color: #0f0202;
-  font-weight: lighter;
-  padding: 1.5rem;
+.footer-section {
+  animation: fadeInUp 0.5s ease forwards; /* Apply animation to footer sections */
 }
-
-footer .credit span {
-  color: #ffffff;
-}
-
 
 /* media queries */
 
@@ -809,7 +800,11 @@ footer .credit span {
   .gallery .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+}
+
+.footer-section {
+  flex-basis: 100%;
+}
 }
 
 @media only screen and (max-width: 991px) {
