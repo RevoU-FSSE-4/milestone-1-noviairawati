@@ -5,13 +5,22 @@ HTML Version: _HTML5_
 
 ## Version Control
 I use the command to upload my assignment.
-1. Git add . : Add all new and changed files to the staging are
+1. Add all new and changed files to the staging are
+
+Git add .
+
 ![1](/Image_Readme/gitadd.png)
 
-2. git commit -m "[commit message]" : Commit changes
-![2](/Image_Readme/commit.png)
+2. Commit changes
 
-3. git push origin [branch name] 	: Push a branch to your remote repository
+git commit -m "[commit message]"
+
+![2](/Image_Readme/gitcommit.png)
+
+3. Push a branch to your remote repository
+
+git push origin [branch name]
+
 ![3](/Image_Readme/gitpush.png)
 
 ## Structure Website:
