@@ -18,7 +18,7 @@
     <!-- header section start -->
     <header>
         <a href="#" class="logo">
-            <img src="IMG/logo.png" alt="logo"></a>
+            <img src="IMG/logo.jpg" alt="logo"></a>
         <div class="toggle"></div>
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -48,9 +48,9 @@
         <!-- home section starts -->
         <section class="home" id="home">
             <div class="content">
-                <h3>Discover the Perfect Travel Companion with Koper Travel Bag</h3>
+                <h1>Discover the best collection of travel bags for your journey</h1>
                 <p>Welcome, fellow travelers, to the ultimate guide to finding the perfect travel bag! Whether you're planning a weekend getaway, a business trip, or a globetrotting adventure, choosing the right travel bag is essential for a smooth and hassle-free journey. In this blog post, we'll delve into the key factors to consider when selecting a travel bag and showcase some of the top picks from Koper Travel Bag. </p>
-                <a href="#" class="btn">LEARN MORE</a>
+                <a href="#" class="btn">EXPLORE COLLECTION</a>
                 <a href="#" class="btn">CONTACT US</a>
             </div>
         </section>
@@ -65,7 +65,7 @@
                         <source media="(min-width: 1200px)" srcset="IMG\aboutus1.jpg" alt="srcset1">
                         <source media="(min-width: 861px)" srcset="IMG\aboutus2.jpg" alt="srcset2">
                         <source media="(min-width: 481px)" srcset="IMG\aboutus3.jpg" alt="srcset3">
-                        <img src="IMG/background.jpg" alt="About Us Gambar">
+                        <img src="IMG/aboutus.jpg" alt="About Us Gambar">
                     </picture>
                 </div>
 
@@ -210,45 +210,41 @@
         <!-- review section ends -->
 
                 <!-- contact section starts -->
-                <section class="contact" id="contact">
-                    <h1 class="heading"><span>Contact </span>Us</h1>
-                    <div class="row">
-                        <iframe class="map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.3749706021!2d106.64771094335939!3d-6.249831400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ed803c2de1%3A0x540effb397627462!2sKopi%20Kenangan%20x%20Chigo%20Ruko%20Radio%20Dalam!5e0!3m2!1sen!2sid!4v1698252496363!5m2!1sen!2sid"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
-                        <form action="">
-                            <h3>Form Registration</h3>
-                            <div class="inputBox">
-                                <span class="fas fa-user"></span>
-                                <input type="text" placeholder="name" required>
-                            </div>
-        
-                            <div class="inputBox">
-                                <span class="fas fa-envelope"></span>
-                                <input type="email" placeholder="email" required>
-                            </div>
-        
-                            <div class="inputBox">
-                                <span class="fa fa-birthday-cake"></span>
-                                <input type="date">
-                            </div>
-        
-                            <div class="inputBox">
-                                <span class="fas fa-phone"></span>
-                                <input type="number" placeholder="number" required>
-                            </div>
-        
-                            <div class="inputBox">
-                                <span class="fa fa-address-book"></span>
-                                <input type="textarea" name="address" placeholder="address" cols="20px" rows="2px"
-                                    required></textarea>
-                            </div>
-
-                            <input type="submit" value="contact now" class="btn">
-                            <input type="reset" name="Reset" value="Reset" class="btn">
-                        </form>
+                <section id="form-section">
+                    <div id="myForm">
+                        <h1 class="heading">Contact <span>Us</span></h1>
+                      <form>
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="dob">Date of Birth:</label>
+                          <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="gender">Gender:</label>
+                          <select id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="address">Address:</label>
+                          <textarea id="address" name="address" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <button type="submit">Submit</button>
+                          <button type="reset">Reset</button>
+                        </div>
+                      </form>
                     </div>
-                </section>
+                  </section>                  
                 <!-- contact section ends -->
 
         <!-- blogs section starts -->
