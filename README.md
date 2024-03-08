@@ -1,6 +1,6 @@
 Hello, This assignment for Milestone 1.
 
-Theme: *Koper Travel Bag*
+Theme: **Koper Travel Bag**
 
 Description: This website is a mini project that describes the company profile of a company that sells suitcases in an online shop.
 
