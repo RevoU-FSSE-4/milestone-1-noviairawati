@@ -40,9 +40,9 @@ I use Semantic Element to built the website
 
 ## Source
 
-1. [color hunt](https://colorhunt.co/)
-2. - [Free Pik](https://www.freepik.com)
-- [Unsplash](https://unsplash.com/)
+1. [Color Hunt](https://colorhunt.co/)
+2. [Free Pik](https://www.freepik.com)
+3. [Unsplash](https://unsplash.com/)
 
 
 ## Deployment Process, Make a Subdomain
@@ -59,7 +59,6 @@ There are few steps in Deployment Process and Make subdomain to Netlify.
 
 3. Authorize Netlify It's time to authorized your Netlify and GitHub to connect each other. Clicking the "Authorized"
 
-![5](/Assets/image-4.png)
 
 4. Select Your Repo Now that you've connected Netlify and GitHub, you can see a list of your Git repos. Choose the repo you’d like to deploy from the list.
 
