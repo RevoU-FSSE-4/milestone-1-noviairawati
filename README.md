@@ -124,25 +124,35 @@ Now I want to create a subdomain with the results of deploying my Milestone-1. T
 
 1. Select the website on Netlify that you want to create a subdomain for.
 
+![21](/Image_Readme/21.png)
 
 
 2. Select "Domain Management"
 
-
+![22](/Image_Readme/22.png)
 
 3. Select "Add Domain"
 
-
+![23](/Image_Readme/23.png)
 
 4. Write the name "Subdomain" and select "Verify"
 
+![24](/Image_Readme/24.png)
 
+![25](/Image_Readme/25.png)
 
+![26](/Image_Readme/26.png)
 
-5. Your subdomain has been successfully created.
+5. Select "Select Choose Your Subdomain"
 
+![27](/Image_Readme/27.png)
 
+![28](/Image_Readme/28.png)
 
-Check the link of your subdomain : [kopertravelbag](http://melodymusiccourse.noviairawati.site/)
+6. Your subdomain has been successfully created.
+![29](/Image_Readme/29.png)
+
+Check the link of your subdomain : [kopertravelbag](http://kopertravelbag.noviairawati.site/)
+![30](/Image_Readme/30.png)
 
 Thank You :)
