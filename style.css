@@ -475,7 +475,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--bg);
+  background-color: var(--main-color);
 }
 
 @keyframes tilt {
