@@ -270,7 +270,7 @@ main .about .row .content {
 }
 
 main .about .row .content h3 {
-  font-size: 3rem;
+  font-size: 1.7rem;
   color: #0f0202;
 }
 
@@ -279,6 +279,32 @@ main .about .row .content p {
   color: #0f0202;
   padding: 1rem 0;
   line-height: 1.8;
+}
+
+main .about .row .content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+main .about .row .content ul li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+main .about .row .content ul li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+
+main .about .row .content ul li p {
+  margin-bottom: 0;
 }
 
 /* Our Collection */
@@ -674,6 +700,10 @@ footer {
   animation: fadeInUp 0.5s ease forwards;
 }
 
+.socials a:hover {
+  color: var(--bg);
+}
+
 .links ul {
   list-style: none;
   padding: 0;
@@ -693,7 +723,7 @@ footer {
 }
 
 .links a:hover {
-  color: #555;
+  color: var(--bg);
 }
 
 .footer-bottom {
@@ -715,12 +745,12 @@ footer {
   }
 }
 
+/* Apply animation to footer sections */
 .footer-section {
   animation: fadeInUp 0.5s ease forwards;
-  /* Apply animation to footer sections */
 }
 
-/* media queries */
+/* Media Queries */
 
 @media only screen and (max-width: 450px) {
   html {
