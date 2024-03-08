@@ -449,7 +449,7 @@ button {
 }
 
 button:hover {
-  background-color: #1E6566;
+  background-color: var(--bg);
 }
 
 @keyframes tilt {
@@ -466,7 +466,7 @@ button:hover {
   }
 }
 
-form-section .myForm {
+#myForm {
   width: 500px;
   margin: 50px auto;
   padding: 30px;
@@ -478,7 +478,7 @@ form-section .myForm {
 }
 
 /* Add perspective */
-form-section .myForm:before {
+#myForm:before {
   content: "";
   position: absolute;
   top: -10px;
@@ -491,7 +491,7 @@ form-section .myForm:before {
   z-index: -1;
 }
 
-form-section .myForm:after {
+#myForm:after {
   content: "";
   position: absolute;
   top: -10px;
