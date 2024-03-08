@@ -52,34 +52,66 @@ There are few steps in Deployment Process and Make subdomain to Netlify.
 
 ### Auto Deployement on Github with Netlify
 
-1. Add New Site
+1. Login to Netlify
 
-2. Link to Your GitHub (or supported version-control tool of choice), then Clicking "Import An Existing Project"
+![1](/Image_Readme/1.png)
 
+![2](/Image_Readme/2.png)
+
+![3](/Image_Readme/3.png)
+
+![4](/Image_Readme/4.png)
+
+
+2. Add New Site
+
+![5](/Image_Readme/5.png)
+
+2. Link to Your GitHub (or supported version-control tool of choice), then Clicking "Import An Existing Project" > Then Choose Deploy on Github
+
+![6](/Image_Readme/6.png)
+
+![7](/Image_Readme/7.png)
 
 3. Authorize Netlify It's time to authorized your Netlify and GitHub to connect each other. Clicking the "Authorized"
 
+![8](/Image_Readme/8.png)
 
 4. Select Your Repo Now that you've connected Netlify and GitHub, you can see a list of your Git repos. Choose the repo you’d like to deploy from the list.
-
+![9](/Image_Readme/9.png)
 
 5. Configure Your Settings click the "Deploying" button to continue.
 
+![10](/Image_Readme/10.png)
+
+![11](/Image_Readme/11.png)
+
+![12](/Image_Readme/12.png)
+
+![13](/Image_Readme/13.png)
 
 6. Build Your Site Now it's time to sit back and relax. You did your part; let Netlify take care of the rest. It'll only take a minute.
 
+![14](/Image_Readme/14.png)
+
+![15](/Image_Readme/6.png)
 
 7. All Done Once the build completes, your site is live! Head to the overview and you can see the URL of your newly published site.
 
+![16](/Image_Readme/16.png)
 
+![17](/Image_Readme/17.png)
+
+![18](/Image_Readme/18.png)
+
+![19](/Image_Readme/19.png)
 
 8. Netlify automatically generated a name for your site. Let's update that by visiting the settings tab and clicking "Change site name":
 
-
 Here's my deploy on Netlify:
-[Koper Travel Bag](https://melodymusiccourse.netlify.app/)
+[Koper Travel Bag](https://kopertravelbag.netlify.app//)
 
-![17](/Assets/image-16.png)
+![20](/Image_Readme/20.png)
 
 ### How to Make Subdomain
 
