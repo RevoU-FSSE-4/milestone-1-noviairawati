@@ -143,6 +143,10 @@ header .navbar a {
   color: #0f0202;
 }
 
+.navbar a:hover {
+  letter-spacing: 0.1rem;
+}
+
 /* Change the color of links on hover */
 header .navbar a:hover {
   color: var(--main-color);
